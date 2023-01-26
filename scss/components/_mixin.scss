@@ -1,0 +1,11 @@
+@use "../custom" as *;
+
+@mixin absoluteCenter {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@mixin gradinet {
+  background: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+}

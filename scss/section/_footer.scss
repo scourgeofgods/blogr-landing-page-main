@@ -1,0 +1,8 @@
+@use "../custom" as *;
+
+.footer {
+  padding: 15rem 0 0;
+  .footer-content {
+    background-color: $footer-bcg;
+  }
+}

@@ -1,0 +1,36 @@
+@use "../custom" as *;
+
+.btn {
+  padding: 1rem 3rem;
+  @media (max-width: $md) {
+    padding: 0.5rem 1.5rem;
+  }
+  border-radius: 999rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+
+  transition: all 0.4s ease-out;
+  &:hover {
+    box-shadow: inset 3px 3px 10px -4.5px #dddddd;
+    transform: scale(0.95);
+  }
+}
+.btn-primary {
+  background: $cta;
+  border-color: $white;
+  color: $white;
+  &:hover {
+    color: $cta;
+    background-color: $white;
+  }
+}
+.btn-secondary {
+  border-color: $cta-hover;
+  background-color: $white;
+  color: $cta;
+  &:hover {
+    color: $white;
+    border-color: $cta;
+    background-color: $cta-hover;
+  }
+}

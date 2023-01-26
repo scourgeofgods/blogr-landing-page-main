@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-xl main-nav fixed-top">
+      <div class="nav-content container py-4">
+        <a class="navbar-brand ms-2" href="#">
+          <img src="assets/images/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars fa-2x"></i>
+          <i class="fas fa-times d-none fa-2x"></i>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarNavDropdown">
+          <ul class="ms-1 navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Product
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Overview</a></li>
+                <li><a class="dropdown-item" href="#">Pricing</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Marketplace</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Features</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Marketplace</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Integrations</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Connect
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#"> Newsletter</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Linked In</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Company
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Team</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Careers</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="ms-auto">
+            <a href="#" class="btn-primary btn me-2">Login</a>
+            <a href="#" class="btn-secondary btn">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Intro Start -->
+    <section class="intro" id="intro ">
+      <div class="intro-content container mx-auto">
+        <div class="row">
+          <div
+            class="col-8 intro d-flex flex-column align-items-center justify-content-center gap-3"
+          >
+            <h1 class="display-2 text-center">A modern publishing platform</h1>
+            <p class="lead text-secondary text-center">
+              Grow your audience and build your online brand
+            </p>
+            <div class="d-flex mt-5">
+              <button class="btn btn-secondary me-2" type="button">
+                Start For Free
+              </button>
+              <button class="btn btn-primary" type="button">Learn More</button>
+            </div>
+          </div>
+          <div class="col-12 intro-bg">
+            <picture>
+              <source
+                srcset="assets/images/bg-pattern-intro-mobile.svg"
+                media="(max-width:992px)"
+              />
+              <img
+                src="assets/images/bg-pattern-intro-desktop.svg"
+                class="img-fluid"
+                alt=""
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Intro End -->
+    <!-- Future Start  -->
+    <section id="future" class="future">
+      <div class="future-content container">
+        <div class="row my-5 text-center">
+          <h2 class="display-3">Designed For The Future</h2>
+        </div>
+        <div
+          class="row align-items-center justify-content-center flex-md-row-reverse position-relative"
+        >
+          <div class="col-12 col-lg-6 align-self-center">
+            <picture>
+              <source
+                srcset="assets/images/illustration-editor-mobile.svg"
+                media="(max-width:768px)"
+              />
+              <img
+                src="assets/images/illustration-editor-desktop.svg"
+                class="img-fluid w-100"
+                alt=""
+              />
+            </picture>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="text-md-start row-gap-5 text-center">
+              <h3 class="display-5">Introducing an extensible editor</h3>
+              <p class="lh-base">
+                Blogr features an exceedingly intuitive interface which lets you
+                focus on one thing: creating content. The editor supports
+                management of multiple blogs and allows easy manipulation of
+                embeds such as images, videos, and Markdown. Extensibility with
+                plugins and themes provide easy ways to add functionality or
+                change the looks of a blog.
+              </p>
+            </div>
+            <div class="text-md-start gy-5 text-center">
+              <h3 class="display-5">Robust content management</h3>
+              <p class="lh-base">
+                Flexible content management enables users to easily move through
+                posts. Increase the usability of your blog by adding customized
+                categories, sections, format, or flow. With this functionality,
+                you’re in full control.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Future End  -->
+    <!-- phones -->
+    <section class="phone">
+      <div class="position-relative phone-content container-lg co">
+        <img
+          class="img-fluid"
+          src="assets/images/bg-pattern-circles.svg"
+          alt=""
+          style="height: 400px"
+        />
+
+        <div
+          class="row position-absolute text-lg-start start-0 translate-middle-y top-50 text-lg-start mt-n6 mt-lg-0 text-center"
+        >
+          <div class="col-lg-5 ms-auto">
+            <img
+              src="assets/images/illustration-phones.svg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-lg-6 align-self-center mt-n4 mt-lg-0 pb-lg-0 px-5 px-3 pb-5"
+          >
+            <h1 class="display-6 text-secondary">
+              State of the Art Infrastructure
+            </h1>
+            <p class="text-secondary">
+              With reliability and speed in mind, worldwide data centers provide
+              the backbone for ultra-fast connectivity. This ensures your site
+              will load instantly, no matter where your readers are, keeping
+              your site competitive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="laptop" class="laptop">
+      <div class="latop-content container">
+        <div
+          class="row align-items-center justify-content-center position-relative"
+        >
+          <div class="col-12 col-lg-6 align-self-center">
+            <picture>
+              <source
+                srcset="assets/images/illustration-laptop-desktop.svg"
+                media="(max-width:768px)"
+              />
+              <img
+                src="assets/images/illustration-laptop-desktop.svg"
+                class="img-fluid w-100"
+                alt=""
+              />
+            </picture>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="text-md-start row-gap-5 text-center">
+              <h3 class="display-5">Free, open, simple</h3>
+              <p class="lh-base">
+                Blogr is a free and open source application backed by a large
+                community of helpful developers. It supports features such as
+                code syntax highlighting, RSS feeds, social media integration,
+                third-party commenting tools, and works seamlessly with Google
+                Analytics. The architecture is clean and is relatively easy to
+                learn.
+              </p>
+            </div>
+            <div class="text-md-start gy-5 text-center">
+              <h3 class="display-5">Powerful tooling</h3>
+              <p class="lh-base">
+                Batteries included. We built a simple and straightforward CLI
+                tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content container">
+        <div class="row text-secondary gy-5 text-md-start p-5 text-center">
+          <div class="col-md-3 text-md-start text-center">
+            <a href="#">
+              <img src="assets/images/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <h1 class="text-secondary fs-3">Product</h1>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Overview </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Pricing </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Marketplace </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Features </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Integrations </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h1 class="text-secondary fs-3">Company</h1>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link"> About </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Team </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Blog </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Careers </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h1 class="text-secondary fs-3">Connect</h1>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Pricing </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"> Newsletter </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link"> LinkedIn </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

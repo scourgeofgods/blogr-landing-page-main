@@ -1,0 +1,10 @@
+@use "../custom" as *;
+@use "../components/mixin" as *;
+.phone {
+  padding: 15rem 0;
+  .phone-content {
+    background-color: $very-dark-gray;
+    border-top-right-radius: 8rem;
+    border-bottom-left-radius: 6rem;
+  }
+}

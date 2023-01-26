@@ -1,0 +1,17 @@
+@use "../custom" as *;
+@use "../components/mixin" as *;
+
+.future {
+  width: 100%;
+  overflow: hidden;
+  padding: 10rem 0;
+  .future-content {
+    padding: 0 8rem;
+    @media (max-width: $lg) {
+      padding: 6rem 8rem 6rem;
+    }
+    @media (max-width: $md) {
+      padding: 2rem 4rem;
+    }
+  }
+}
