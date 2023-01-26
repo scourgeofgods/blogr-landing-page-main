@@ -1,16 +1,42 @@
-# Avoid accidental upload of the Sketch and Figma design files
-#####################################################
-## Please do not remove lines 5 and 6 - thanks! 🙂 ##
-#####################################################
-*.sketch
-*.fig
+# Ignore docs files
+/_site/
+# Hugo files
+/resources/
+/.hugo_build.lock
 
-# Avoid accidental XD upload if you convert the design file
-###############################################
-## Please do not remove line 12 - thanks! 🙂 ##
-###############################################
-*.xd
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+*~
 
-# Avoid your project being littered with annoying .DS_Store files!
+# OS or Editor folders
+._*
+.cache
 .DS_Store
-.prettierignore
+.idea
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+nbproject
+Thumbs.db
+/.vscode/
+# Local Netlify folder
+.netlify
+
+# Komodo
+.komodotools
+*.komodoproject
+
+# Folders to ignore
+/js/coverage/
+/node_modules/
